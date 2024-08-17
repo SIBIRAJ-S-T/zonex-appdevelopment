@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mya{
+    z-index: 1;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: right 0.4s ease-in-out;
+  }
+  
+  .profile {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71Tc9Tk2q1eJUUlX1bXhWrc0-g8O9xnAplw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid yellow;
+
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  #sidebar.open {
+    right: 0;
+  }
+  
+  /* YourAppbuy.css */
+
+.deletep {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deletep:hover {
+  background-color: #d32f2f;
+}
+
+.editp {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editp:hover {
+  background-color: #388e3c;
+}

@@ -1,0 +1,163 @@
+/* Main container styling */
+.auction-details-container {
+  background-color: #f0f4f8;
+  padding: 20px;
+  min-height: 100vh; /* Ensures full background coverage */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Auction details styling */
+.auction-details {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Left section for product details and image */
+.auction-details-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.auction-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.product-details {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.detail-item {
+  background-color: #f7f9fc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Right section for bidding and auction details */
+.auction-details-right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9534f;
+  margin-bottom: 20px;
+}
+
+.auction-details-form {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auction-details-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.auction-details-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auction-details-form button:hover {
+  background-color: #45a049;
+}
+
+/* Error and success messages */
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Bids list styling */
+.bids-list {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bids-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.bid-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.bid-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Highlight the latest bid */
+.latest-bid {
+  background-color: #fffbcc;
+}
+
+/* Winner announcement */
+.winner {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff5722;
+  text-align: center;
+}

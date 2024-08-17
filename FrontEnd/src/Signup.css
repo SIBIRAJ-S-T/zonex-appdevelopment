@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundofsignup{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+    background-image: url("https://media.istockphoto.com/id/2155636965/photo/trendy-geometric-background-with-blue-abstract-waves.jpg?s=612x612&w=0&k=20&c=XN6qxhT-enGwtZ5lZzVxnc6iKQGql2PeMDGm5hQ8ang=");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.sgcontainer {
+    margin: 80px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(53, 167, 167, 0.8); /* Slightly transparent background for readability */
+    
+}
+
+.sgform input[type="text"],
+.sgform input[type="email"],
+.sgform input[type="password"],
+.sgform input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.sgform input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.sgform input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error {
+    font-size: small;
+    color: red;
+}
+
+.passinvalid{
+    font-size: small;
+    color: red;
+}
+
+.success-message{
+    color: green;
+    font-style: italic;
+}
+
+.sganc{
+    cursor: pointer;
+    text-decoration: underline;
+}

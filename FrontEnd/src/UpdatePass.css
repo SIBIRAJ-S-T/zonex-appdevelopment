@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mainup{
+  background-color: rgb(242, 0, 255);
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.upcontainer {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+.upform input[type="text"],
+.upform input[type="email"],
+.upform input[type="password"],
+.upform input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.upform input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.upform input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.upsuccess{
+    color: green;
+}
+
+.uperror {
+    font-size: small;
+    color: red;
+}
+
+.passinvalid{
+    font-size: small;
+    color: red;
+}
+
+.upsuccess-message{
+    color: green;
+    font-style: italic;
+}
+
+.upanc{
+    cursor: pointer;
+    text-decoration: underline;
+}

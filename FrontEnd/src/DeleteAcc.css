@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.maindl{
+    background-color: rgb(242, 0, 255);
+    width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dlcontainer {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.dlform input[type="text"],
+.dlform input[type="password"],
+.dlform input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.dlform input[type="checkbox"]{
+    margin: 10px 0; 
+    margin-right: 5px;
+}
+
+.dlform input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.dlform input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.dlerror{
+    color: red;
+    font-size: small;
+}
+
+.dlanc{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dlsuccess{
+    color: green;
+    font-style: italic;
+}

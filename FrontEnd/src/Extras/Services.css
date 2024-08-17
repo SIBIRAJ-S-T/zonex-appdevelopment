@@ -1,0 +1,31 @@
+.services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .services-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .services-container p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .services-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-container li {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,43 @@
+/* Ensure the container inside `HomeGames` adapts to the height of its parent */
+
+.containerins {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Ensure boxes stretch to fill the container */
+  width: 100%;
+  height: 70vh; /* Adapt to the height of the parent container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Flex items (boxes) */
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Ensure boxes grow equally within container */
+  min-height: 0; /* Allow box to shrink as needed */
+}
+
+/* Hover effects */
+.box:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Styling for the individual boxes */
+.left-box {
+  background: linear-gradient(135deg, #007bff, #99ccff); /* Light Blue */
+}
+
+.right-box {
+  background: linear-gradient(135deg, #fd7e14, #ffcc99); /* Light Green */
+}
